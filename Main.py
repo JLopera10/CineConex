@@ -16,17 +16,6 @@ id = 1
 personas_existentes = {}
 nodos_personas = []
 for x in peliculas:
-    print("link:" + x[0])
-    print("nombre:" + x[1])
-    print("año:" + x[2])
-    print("certificado" + x[3])
-    print("duracion" + x[4])
-    print("genero" + x[5])
-    print("rating" + x[6])
-    print("descripcion" + x[7])
-    print("puntaje" + x[8])
-    print("votos" + x[14])
-    print("ganancias" + x[15])
     pelicula_actual = Pelicula(x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], x[8], x[14], x[15])
 
     for i in range(5):
